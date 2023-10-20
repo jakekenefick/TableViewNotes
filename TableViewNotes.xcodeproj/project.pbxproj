@@ -17,6 +17,7 @@
 		3564BDAF2AE01DE100680D7C /* TableViewNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564BDAE2AE01DE100680D7C /* TableViewNotesTests.swift */; };
 		3564BDB92AE01DE100680D7C /* TableViewNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564BDB82AE01DE100680D7C /* TableViewNotesUITests.swift */; };
 		3564BDBB2AE01DE100680D7C /* TableViewNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3564BDBA2AE01DE100680D7C /* TableViewNotesUITestsLaunchTests.swift */; };
+		35A010F22AE1745000474E9E /* CrazyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A010F12AE1745000474E9E /* CrazyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3564BDB42AE01DE100680D7C /* TableViewNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3564BDB82AE01DE100680D7C /* TableViewNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewNotesUITests.swift; sourceTree = "<group>"; };
 		3564BDBA2AE01DE100680D7C /* TableViewNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35A010F12AE1745000474E9E /* CrazyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				3564BD942AE01DDF00680D7C /* AppDelegate.swift */,
 				3564BD962AE01DDF00680D7C /* SceneDelegate.swift */,
+				35A010F12AE1745000474E9E /* CrazyCell.swift */,
 				3564BD982AE01DDF00680D7C /* ViewController.swift */,
 				3564BD9A2AE01DDF00680D7C /* Main.storyboard */,
 				3564BDA02AE01DE100680D7C /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A010F22AE1745000474E9E /* CrazyCell.swift in Sources */,
 				3564BD992AE01DDF00680D7C /* ViewController.swift in Sources */,
 				3564BD952AE01DDF00680D7C /* AppDelegate.swift in Sources */,
 				3564BD972AE01DDF00680D7C /* SceneDelegate.swift in Sources */,
